@@ -40,7 +40,6 @@ function App() {
   return (
     <div className="App">
       <>
-        {console.log(ans)}
         <h2>Guess the color </h2>
         <div className="box" style={{ backgroundColor: color }} />
         <div>
