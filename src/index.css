@@ -63,14 +63,34 @@ button:focus-visible {
   /* background-color: yellow; */
   border: 2px solid rgb(228, 228, 228);
   border-radius: 2%;
-  margin-bottom: 1rem;
   transition: all 0.5s;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+}
+.footer:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.87);
+}
+.icon {
+  fill: rgba(255, 255, 255, 0.87);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
+  }
+  .icon {
+    fill: #213547;
   }
   a:hover {
     color: #747bff;
