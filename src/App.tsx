@@ -31,6 +31,7 @@ function App() {
     const ans = [color, color2, color3];
     ans.sort(() => Math.random() - 0.5);
     setAns(ans);
+    setStatus("");
   };
   useEffect(() => {
     newGame();
